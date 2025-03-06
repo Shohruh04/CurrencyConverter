@@ -1,0 +1,6 @@
+D:\cash_convert\cash_convert\x64\Release\cash_convert.vcxproj.AssemblyReference.cache
+D:\cash_convert\cash_convert\x64\Release\cashconvert.MyForm.resources
+D:\cash_convert\cash_convert\x64\Release\cash_convert.vcxproj.GenerateResource.cache
+C:\cash_convert\cash_convert\x64\Release\cash_convert.vcxproj.AssemblyReference.cache
+C:\cash_convert\cash_convert\x64\Release\cashconvert.MyForm.resources
+C:\cash_convert\cash_convert\x64\Release\cash_convert.vcxproj.GenerateResource.cache
