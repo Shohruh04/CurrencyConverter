@@ -323,7 +323,7 @@ namespace cashconvert {
         {
          currencyRates = gcnew Dictionary<String^, double>();
 currencyRates->Add(L"USD", 1.0);        // US Dollar
-currencyRates->Add(L"UZS", 10800.0);    // Uzbekistani Som
+currencyRates->Add(L"UZS", 12926.0);    // Uzbekistani Som
 currencyRates->Add(L"EUR", 0.9268);     // Euro
 currencyRates->Add(L"GBP", 0.7743);     // British Pound
 currencyRates->Add(L"RUB", 84.8707);    // Russian Ruble
