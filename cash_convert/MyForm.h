@@ -320,14 +320,15 @@ namespace cashconvert {
         // Инициализация курсов валют
         void InitExchangeRates()
         {
-            currencyRates = gcnew Dictionary<String^, double>();
-            currencyRates->Add(L"USD", 1.0);
-            currencyRates->Add(L"UZS", 10800.0);
-            currencyRates->Add(L"EUR", 0.94);
-            currencyRates->Add(L"RUB", 75.0);
-            currencyRates->Add(L"KZT", 450.0);
-            currencyRates->Add(L"UAH", 36.0);
-            currencyRates->Add(L"GBP", 0.83);
+         currencyRates = gcnew Dictionary<String^, double>();
+currencyRates->Add(L"USD", 1.0);        // US Dollar
+currencyRates->Add(L"UZS", 10800.0);    // Uzbekistani Som
+currencyRates->Add(L"EUR", 0.9268);     // Euro
+currencyRates->Add(L"GBP", 0.7743);     // British Pound
+currencyRates->Add(L"RUB", 84.8707);    // Russian Ruble
+currencyRates->Add(L"KZT", 503.9640);   // Kazakhstani Tenge
+currencyRates->Add(L"UAH", 36.0);       // Ukrainian Hryvnia
+currencyRates->Add(L"INR", 85.64);      // Indian Rupee
         }
 
         // Инициализация графиков с настройкой осей, серий и белых подписей чисел
