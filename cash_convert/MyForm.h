@@ -315,21 +315,19 @@ namespace cashconvert {
             flagPaths->Add(L"KZT", L"C:\\cash_convert\\flag\\kz.png");
             flagPaths->Add(L"UAH", L"C:\\cash_convert\\flag\\uk.png");
             flagPaths->Add(L"GBP", L"C:\\cash_convert\\flag\\grb.png");
-            flagPaths->Add(L"INR", L"C:\\cash_convert\\flag\\India.png");
         }
 
         // Инициализация курсов валют
         void InitExchangeRates()
         {
          currencyRates = gcnew Dictionary<String^, double>();
-currencyRates->Add(L"USD", 1.0);        // US Dollar
-currencyRates->Add(L"UZS", 12926.0);    // Uzbekistani Som
-currencyRates->Add(L"EUR", 0.9268);     // Euro
-currencyRates->Add(L"GBP", 0.7743);     // British Pound
-currencyRates->Add(L"RUB", 84.8707);    // Russian Ruble
-currencyRates->Add(L"KZT", 503.9640);   // Kazakhstani Tenge
-currencyRates->Add(L"UAH", 36.0);       // Ukrainian Hryvnia
-currencyRates->Add(L"INR", 85.64);      // Indian Rupee
+         currencyRates->Add(L"USD", 1.0);        // US Dollar
+         currencyRates->Add(L"UZS", 12926.0);    // Uzbekistani Som
+         currencyRates->Add(L"EUR", 0.9268);     // Euro
+         currencyRates->Add(L"GBP", 0.7743);     // British Pound
+         currencyRates->Add(L"RUB", 84.8707);    // Russian Ruble
+         currencyRates->Add(L"KZT", 503.9640);   // Kazakhstani Tenge
+         currencyRates->Add(L"UAH", 36.0);       // Ukrainian Hryvnia
         }
 
         // Инициализация графиков с настройкой осей, серий и белых подписей чисел
