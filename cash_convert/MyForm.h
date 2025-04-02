@@ -315,6 +315,7 @@ namespace cashconvert {
             flagPaths->Add(L"KZT", L"C:\\cash_convert\\flag\\kz.png");
             flagPaths->Add(L"UAH", L"C:\\cash_convert\\flag\\uk.png");
             flagPaths->Add(L"GBP", L"C:\\cash_convert\\flag\\grb.png");
+            flagPaths->Add(L"INR", L"C:\\cash_convert\\flag\\India.png");
         }
 
         // Инициализация курсов валют
